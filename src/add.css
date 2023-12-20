@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Grape+Nuts&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Roboto+Mono:wght@700&family=Smooch&display=swap');
+.form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.input {
+    width: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    margin: 2px;
+    border: 2px solid black;
+    border-radius: 8px;
+    font-size: 20px;
+}
+
+.btt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 120px;
+    font-size: 16px;
+    background-color: green;
+    border-radius: 1rem;
+    color: white;
+}

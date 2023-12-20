@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Grape+Nuts&family=Lexend+Peta:wght@100;200;300;400;500;600;700;800;900&family=Mochiy+Pop+P+One&family=Outfit:wght@100;200;300;400;500;600;700;800;900&family=Playfair+Display:ital,wght@1,800&family=Poppins:ital,wght@0,300;1,200&family=Righteous&family=Roboto+Mono:wght@700&family=Smooch&display=swap');
+.cardmain {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    box-shadow: 4px 4px 4px black;
+    width: 80%;
+    height: auto;
+    border-radius: 1rem;
+    flex-direction: column;
+    border: 2px solid black;
+    font-family: 'Poppins', sans-serif;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    color: black;
+    font-weight: bolder;
+    font-size: 40px;
+    border-bottom: 2px solid black;
+}
+
+.caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+    color: black;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.del {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: red;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.edit {
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    background-color: green;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 8px;
+}

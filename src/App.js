@@ -1,17 +1,21 @@
 import React from 'react';
+import {BrowserRouter, Route , Routes} from 'react-router-dom'
+import AddTodo from './AddTodo';
+import EditTodo from './EditTodo';
+import HomeTodo from './HomeTodo';
 
 function App() {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <header>
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-      </header>
-    </div>
+ <>
+
+<BrowserRouter>
+      <Routes>
+        <Route path='/' element={<HomeTodo/>}></Route>
+        <Route path='/create' element={<AddTodo/>}></Route>
+        <Route path='/update/:id' element={<EditTodo/>}></Route>
+      </Routes>
+      </BrowserRouter>
+ </>
   );
 }
 
